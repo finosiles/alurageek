@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:wght@300;400;700&display=swap');
+/* Colores del poryecto */
+
+/* fondo login #E5E5E5; */
+/* color fuente #464646; */
+/* color botones #2A7AE4; */
+
+:root{
+    --color-primario(#2A7AE4);
+    --color-fondo(#E5E5E5);
+    --color-fuentes( #464646);
+
+}
+body{
+    color: #464646;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: ;
+    background: #E5E5E5;
+    margin: 0px;
+    padding: 0px;
+}
+a:link, a:visited, a:active {
+    color:#464646 ;
+    text-decoration:none;
+}
+
+.flex{
+    display: flex;
+
+}
+
+/*Estilos del navbar  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffff;
+    
+}
+.nav__logo{
+    display: inline-flex;
+    padding: 10px;
+    margin-left: 2rem;
+}
+span {
+    
+    color: #2A7AE4;
+  
+  
+}
+
+.nav__search{
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+    
+}
+.nav__search_input{
+    display: none;
+    
+   
+}
+
+/* Inicio de estilo de la seccion de registro*/
+
+
+.form__registro{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 2rem 4.75rem 2.5rem;
+}
+
+.form__registro_input{
+    height: 2.5rem;
+    width: 17rem;
+    margin: 0 0 1rem 0;
+    border:0;
+    border-bottom: 1px solid rgba(0,0,0, 0.4);
+    
+}
+.form__registro_enviar{
+    width: 7rem;;
+}
+
+
+/* Fin de estilo de la seccion de registro*/
+/* Incio de estilo de la seccion de footer*/
+.footer{
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #EAF2FD;
+}
+.footer__links{
+    flex-direction: column;
+    
+}
+.form__contacts{
+    flex-direction: column;
+    margin: 0 1rem 0 1rem;
+    width: 20rem;
+
+}
+
+.form__contacts input textarea{}
+.form_contactos_boton{
+    width: 9rem;
+}
+.name__contacts{
+    height: 2.5rem;
+    border:0;
+    margin: 0 0 1rem 0;
+    border-bottom: 1px solid rgba(0,0,0, 0.4);
+}
+#mensaje__contacts{
+    border:0;
+    margin: 0 0 1rem 0;
+    border-bottom: 1px solid rgba(0,0,0, 0.4);
+}
+.botones{
+    color: #ffff;
+    background:#2A7AE4 ;
+    border-style: none;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    margin: 1px;
+
+}
+.footer__text_dev{
+    text-align: center;
+    width: 100vw;
+    height: 7.5rem;
+    background:  #ffff;
+}
+/* Fin de estilo de la seccion de footer */
+@media (min-width: 600px) {
+    .nav__search_input{
+	display: flex;
+	margin-right: 1rem;
+	background: #E5E5E5;
+	border-radius: 3rem;
+	border-style: none;
+	outline: none;
+  
+}
+
+
+    

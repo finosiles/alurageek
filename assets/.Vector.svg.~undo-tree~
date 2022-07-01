@@ -1,0 +1,6 @@
+(undo-tree-save-format-version . 1)
+"76adca8a464229125ae71b2617f45fc71ee0d754"
+[nil nil nil nil (25279 7999 980256 514000) 0 nil]
+([nil nil ((nil rear-nonsticky nil 658 . 659) (nil fontified nil 652 . 659) (652 . 659) (t 25275 37208 214150 225000)) nil (25279 7999 980248 38000) 0 nil])
+([nil current ((#("i" 0 1 (fontified t face (nxml-text))) . -652) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (#("n" 0 1 (fontified t face (nxml-text))) . -653) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (#("l" 0 1 (fontified t face (nxml-text))) . -654) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (#("i" 0 1 (fontified t face (nxml-text))) . -655) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (#("n" 0 1 (fontified t face (nxml-text))) . -656) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (#("e" 0 1 (fontified t face (nxml-text))) . -657) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (#("-" 0 1 (fontified t rear-nonsticky t face (nxml-text))) . -658) (undo-tree-id12 . -1) (undo-tree-id13 . -1) 659) nil (25279 7999 980217 871000) 0 nil])
+nil
