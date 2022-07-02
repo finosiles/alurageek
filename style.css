@@ -21,6 +21,7 @@ body{
     background: #E5E5E5;
     margin: 0px;
     padding: 0px;
+   
 }
 a:link, a:visited, a:active {
     color:#464646 ;
@@ -57,6 +58,7 @@ span {
     align-items: center;
     margin-right: 2rem;
     
+    
 }
 .nav__search_input{
     display: none;
@@ -79,7 +81,7 @@ span {
     width: 17rem;
     margin: 0 0 1rem 0;
     border:0;
-    border-bottom: 1px solid rgba(0,0,0, 0.4);
+    border-bottom: 1px solid rgba(0,0,0, 0.4); 
     
 }
 .form__registro_enviar{
@@ -104,6 +106,7 @@ span {
     flex-direction: column;
     margin: 0 1rem 0 1rem;
     width: 20rem;
+    padding-bottom: 4rem;
 
 }
 
@@ -112,6 +115,7 @@ span {
     width: 9rem;
 }
 .name__contacts{
+   
     height: 2.5rem;
     border:0;
     margin: 0 0 1rem 0;
@@ -131,22 +135,119 @@ span {
 
 }
 .footer__text_dev{
+    margin: 0;
     text-align: center;
     width: 100vw;
     height: 7.5rem;
     background:  #ffff;
 }
 /* Fin de estilo de la seccion de footer */
-@media (min-width: 600px) {
+@media (min-width: 768px) {
+    .navbar{
+	justify-content: flex-start;
+	
+	
+    }
     .nav__search_input{
+	height: 1.5rem;
 	display: flex;
+	margin-left: 1.5rem;
 	margin-right: 1rem;
 	background: #E5E5E5;
 	border-radius: 3rem;
 	border-style: none;
 	outline: none;
-  
+    }
+    .name__contacts{
+	width:15rem ;
+	height: 2.5rem;
+	border:0;
+	margin: 0 0 1rem 0;
+	border-bottom: 2px solid rgba(0,0,0, 0.4);
+    }
+    #mensaje__contacts{
+	width:15rem ;
+	border:0;
+	margin: 0 0 1rem 0;
+	border-bottom: 2px solid rgba(0,0,0, 0.4);
+    }
+
+    
+    .footer{
+	margin: 0 2.5rem 0 2rem 0;
+	flex-direction:row;
+	justify-content: space-around;
+	padding-bottom: 2rem;
+    }
+    .footer div{
+	margin-left: 2.5rem;
+    }
+     .footer__izquierdo{
+	 flex-direction: column;
+    }
+    .logo a{
+	width: 3.12rem;
+	height:3.12rem;
+    }
+    .footer__text_dev{
+	margin: 0;
+	max-width: 100%;
+    }
+    
 }
 
 
+@media (min-width: 1240px) {
+    .navbar{
+	justify-content: flex-start;
+	
+	
+    }
+    .nav__search_input{
+	height: 1.5rem;
+	display: flex;
+	margin-left: 1.5rem;
+	margin-right: 1rem;
+	background: #E5E5E5;
+	border-radius: 3rem;
+	border-style: none;
+	outline: none;
+    }
+    .name__contacts{
+	width:434px ;
+	height: 2.5rem;
+	border:0;
+	margin: 0 0 1rem 0;
+	border-bottom: 2px solid rgba(0,0,0, 0.4);
+    }
+    #mensaje__contacts{
+	width:434px ;
+	border:0;
+	margin: 0 0 1rem 0;
+	border-bottom: 2px solid rgba(0,0,0, 0.4);
+    }
+
     
+    .footer{
+	margin: 0 2.5rem 0 2rem 0;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-bottom: 2rem;
+    }
+    .footer__izquierdo{
+	flex-direction: row;
+    }
+    .logo a{
+	width: 3.12rem;
+	height:3.12rem;
+    }
+    .footer div{
+	margin-right: 6rem;
+    }
+    
+    .footer__text_dev{
+	margin: 0;
+	max-width: 100%;
+    }
+    
+}
