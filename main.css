@@ -1,0 +1,128 @@
+
+/* Inicio de la seccion HEADER   */
+.header__login{
+    
+    color: #2E7AE4;
+    cursor: pointer;
+    background: #ffff;
+    border:1px solid #2E7AE4;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin: 1px;
+    
+}
+.nav__search{
+    display: none;
+}
+
+/*Fin de HEADER*/
+
+/* Inicio de la seccion HERO*/
+.hero{
+    height: 20rem;
+    background-image: url(./assets/Hero_pc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    color:#ffff;
+    flex-direction: column;
+    
+}
+.hero button{
+    width: 120px;
+}
+
+/*Fin de HERO*/
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.star__wars__products{
+    margin: 0 2rem 0 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 0.5rem;
+    grid
+}
+.star__product{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.star__wars__products img{
+    width:8.25rem;
+
+}
+a:link {
+     color:  margin:#2A7AE4 !important;
+}
+
+.consolas__products{
+     margin: 0 2rem 0 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 2rem;
+}
+
+
+
+.consolas__product{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.consolas__products img{
+    width:8.25rem;
+   
+
+}
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+.star__wars__products{
+    margin: 0 2rem 0 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 0.5rem;
+    grid
+}
+
+.consolas__products{
+     margin: 0 2rem 0 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 2rem;
+}
+
+}
+
+/*PC*/
+@media (min-width: 1000px) {
+
+.star__wars__products{
+    margin: 0 2rem 0 3rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 0.5rem;
+    grid
+}
+
+
+.consolas__products{
+     margin: 0 2rem 0 3rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 2rem;
+}
+
+}
