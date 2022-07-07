@@ -19,13 +19,30 @@
 /* Inicio de la seccion HERO*/
 .hero{
     height: 20rem;
-    background-image: url(./assets/Hero_pc.png);
+    background-image: url(./assets/Hero_tablet.png);
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: cover; */
     color:#ffff;
     flex-direction: column;
     
+}
+.hero__promociones{
+    margin: 10rem 0 0 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  
+}
+.hero__title, .hero__subtitle{
+    margin: 0;
+   
+}
+.hero__title{
+    font-size: 2em;
+}
+.hero__subtitle{
+    font-size: 1.2em;
 }
 .hero button{
     width: 120px;
@@ -37,46 +54,43 @@ p{
     padding: 0px;
 }
 
-.star__wars__products{
-    margin: 0 2rem 0 3rem;
+.title{
+    margin-left: 2rem;
+    
+}
+.products__titles{
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.star__wars__products, .consolas__products{
+    margin: 0 1rem 0 2rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
-    grid-gap: 0.5rem;
-    grid
+    grid-gap: 0.8rem;
+    
 }
-.star__product{
+.star__product, .consolas__product{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+   
+
 
 }
 .star__wars__products img{
-    width:8.25rem;
+   max-width:10rem;
 
 }
 a:link {
      color:  margin:#2A7AE4 !important;
 }
 
-.consolas__products{
-     margin: 0 2rem 0 3rem;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-gap: 2rem;
-}
 
-
-
-.consolas__product{
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-}
 .consolas__products img{
-    width:8.25rem;
+    max-width: 10rem;
    
 
 }
@@ -85,28 +99,42 @@ a:link {
 /*Tablet*/
 @media (min-width: 768px) {
 
-.star__wars__products{
+
+    .hero{
+   
+    background-image: url(./assets/Hero_tablet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover; 
+    color:#ffff;
+   
+    
+}
+.star__wars__products, .consolas__products{
     margin: 0 2rem 0 3rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     grid-gap: 0.5rem;
-    grid
+  
 }
 
-.consolas__products{
-     margin: 0 2rem 0 3rem;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-gap: 2rem;
-}
+
 
 }
 
 /*PC*/
 @media (min-width: 1000px) {
-
+.hero{
+    
+    background-image: url(./assets/Hero_pc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    color:#ffff;
+    flex-direction: column;
+    
+}
 .star__wars__products{
     margin: 0 2rem 0 3rem;
     display: grid;
