@@ -64,7 +64,7 @@ p{
 
 }
 
-.star__wars__products, .consolas__products, .diversos__products {
+.products__similar__products{
     margin: 0 1rem 0 2rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -72,7 +72,7 @@ p{
     grid-gap: 0.8rem;
     
 }
-.star__product, .consolas__product, .diversos__product{
+.similar__product{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -80,7 +80,7 @@ p{
 
 
 }
-.star__wars__products img{
+.similar__product img{
    max-width:10rem;
 
 }
@@ -89,14 +89,7 @@ a:link {
 }
 
 
-.consolas__products img{
-    max-width: 10rem;
-   
 
-}
-.diversos__product img{
-    max-width: 10rem;
-}
 section.diversos{
     padding-bottom: 6rem;
 }
@@ -120,7 +113,7 @@ section.footer {
    
     
 }
-.star__wars__products, .consolas__products, .diversos__products{
+.products__similar__products{
     margin: 0 2rem 0 3rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -145,7 +138,7 @@ section.footer {
     flex-direction: column;
     
 }
-.star__wars__products, .consolas__products, .diversos__products{
+.products__similar__products{
     margin: 0 2rem 0 3rem;
     display: grid;
     grid-template-columns: repeat(6,1fr);
