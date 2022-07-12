@@ -1,5 +1,11 @@
 
 /* Inicio de la seccion HEADER   */
+.navbar{
+    dipl
+}
+
+
+
 .header__login{
     
     color: #2E7AE4;
@@ -17,35 +23,15 @@
 /*Fin de HEADER*/
 
 /* Inicio de la seccion HERO*/
-.hero{
-    height: 20rem;
-    background-image: url(./assets/Hero_tablet.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    color:#ffff;
+.producto{
     flex-direction: column;
-    
 }
-.hero__promociones{
-    margin: 10rem 0 0 2em;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  
-}
-.hero__title, .hero__subtitle{
-    margin: 0;
+.imagen__producto{
    
 }
-.hero__title{
-    font-size: 2em;
-}
-.hero__subtitle{
-    font-size: 1.2em;
-}
-.hero button{
-    width: 120px;
+.parrafo__producto{
+    flex-direction: column;
+    margin: 0 0.5rem ;
 }
 
 /*Fin de HERO*/
@@ -85,44 +71,79 @@ p{
 
 }
 a:link {
-     color:  margin:#2A7AE4 !important;
+     color: #2A7AE4 !important;
 }
 
 
 
-section.diversos{
+section.products__similares{
     padding-bottom: 6rem;
 }
 section.footer {
     padding-top: 6rem;
 }
-{}
+.footer a{
+    color: #464646;
+}
 /*fin de estilos en mobile */
+
 
 /*Tablet*/
 @media (min-width: 768px) {
 
+    .producto{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem 2.5rem 0 2rem;
+    }
+    .imagen__producto{
 
-    .hero{
-   
-    background-image: url(./assets/Hero_tablet.png);
-    background-position: center;
-    background-repeat: no-repeat;
-     background-size: cover; 
-    color:#ffff;
-   
+	o
+    }
+    .parrafo__producto{
+	flex-direction: column;
+    }
     
-}
-.products__similar__products{
-    margin: 0 2rem 0 3rem;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-gap: 0.5rem;
-  
-}
+    .products__similar__products{
+	margin: 0 2rem 0 3rem;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(2,1fr);
+	grid-gap: 0.5rem;
+	
+    }
 
-
+    .navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #ffff;
+	
+    }
+    .nav__logo{
+	display: inline-flex;
+	padding: 10px;
+	margin-left: 2rem;
+    }
+    span {
+	color: #2A7AE4;
+    }
+    .nav__search{
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 2rem;   
+    }
+    .nav__login{
+	flex-direction: row;
+	justify-content: space-between;
+	min-width: 60%;
+     
+    }
+    .nav__search{
+	display: block;
+    }
 
 }
 
