@@ -11,7 +11,14 @@
     
 }
 .nav__search{
+    color:#464646;
     display: none;
+    width: 20rem;
+    outline: none;
+    border-radius: 1rem;
+    border-style: hidden;
+    background-color:#E5E5E5;
+    padding: .5rem;
 }
 
 /*Fin de HEADER*/
@@ -62,6 +69,10 @@ p{
     justify-content: space-between;
     align-items: center;
 
+}
+.view__all{
+    justify-content: center;
+    align-items: center;
 }
 
 .star__wars__products, .consolas__products, .diversos__products {
@@ -135,6 +146,38 @@ section.footer {
 
 /*PC*/
 @media (min-width: 1000px) {
+    .navbar{
+            justify-content: space-between;
+        }   
+        .nav__login{
+                    flex-direction: row-reverse;
+                    justify-content: space-between;
+                    margin: 1rem;
+                    width: 75%; 
+                
+                }
+                .input__wrapper{
+                    position: relative;
+
+                }
+                .input__icon {
+                    color: #191919;
+                    position: absolute;
+                    width: 1rem;
+                    height: 1rem;
+                    left: 18rem;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+                .search__icon{
+                    display: none;
+                }
+
+            .nav__search{
+
+                display: block;
+
+        }
 .hero{
     
     background-image: url(../assets/Hero_pc.png);

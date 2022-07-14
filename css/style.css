@@ -6,9 +6,10 @@
 /* color botones #2A7AE4; */
 
 :root{
-    --color-primario(#2A7AE4);
-    --color-fondo(#E5E5E5);
-    --color-fuentes( #464646);
+
+    --color-primario:(#2A7AE4);
+    --color-fondo:(#E5E5E5);
+    --color-fuentes:( #464646);
 
 }
 body{
@@ -40,13 +41,10 @@ a:link, a:visited, a:active {
     justify-content: space-between;
     align-items: center;
     background: #ffff;
+    padding: 0 2.5rem 0 2rem;
     
 }
-.nav__logo{
-    display: inline-flex;
-    padding: 10px;
-    margin-left: 2rem;
-}
+
 span {
     
     color: #2A7AE4;
@@ -98,6 +96,7 @@ span {
     justify-content: center;
     align-items: center;
     background: #EAF2FD;
+   
 }
 .footer__links{
     flex-direction: column;
@@ -108,10 +107,11 @@ span {
     margin: 0 1rem 0 1rem;
     width: 20rem;
     padding-bottom: 4rem;
+    padding-right: 2rem;
 
 }
 
-.form__contacts input textarea{}
+.form__contacts input , textarea{}
 .form_contactos_boton{
     width: 9rem;
 }
@@ -120,12 +120,14 @@ span {
     height: 2.5rem;
     border:0;
     margin: 0 0 1rem 0;
-    border-bottom: 1px solid rgba(0,0,0, 0.4);
+    outline: none;
+    border-bottom: 1px solid rgba(80, 77, 77, 0.4);
 }
 #mensaje__contacts{
     border:0;
     margin: 0 0 1rem 0;
-    border-bottom: 1px solid rgba(0,0,0, 0.4);
+    outline: none;
+    border-bottom: 1px solid rgba(80, 75, 75, 0.4);
 }
 .botones{
     cursor: pointer;
