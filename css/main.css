@@ -19,7 +19,7 @@
 /* Inicio de la seccion HERO*/
 .hero{
     height: 20rem;
-    background-image: url(./assets/Hero_tablet.png);
+    background-image: url(../assets/Hero_tablet.png);
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: cover; */
@@ -112,7 +112,7 @@ section.footer {
 
     .hero{
    
-    background-image: url(./assets/Hero_tablet.png);
+    background-image: url(../assets/Hero_tablet.png);
     background-position: center;
     background-repeat: no-repeat;
      background-size: cover; 
@@ -137,7 +137,7 @@ section.footer {
 @media (min-width: 1000px) {
 .hero{
     
-    background-image: url(./assets/Hero_pc.png);
+    background-image: url(../assets/Hero_pc.png);
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: cover; */
