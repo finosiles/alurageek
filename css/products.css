@@ -1,14 +1,14 @@
 
 /* Inicio de la seccion HEADER   */
 .navbar{
-    dipl
+   
 }
 
 
 
 .header__login{
     
-    color: #2E7AE4;
+    color: #2e7ae5;
     cursor: pointer;
     background: #ffff;
     border:1px solid #2E7AE4;
@@ -27,7 +27,14 @@
     flex-direction: column;
 }
 .imagen__producto{
-   
+   justify-content: center;
+   align-items: center;
+   margin: 20px;
+   padding: 20px;
+   width: 80%;
+    overflow: hidden;
+    object-position: center;
+    object-fit: cover;
 }
 .parrafo__producto{
     flex-direction: column;
@@ -92,19 +99,26 @@ section.footer {
 @media (min-width: 768px) {
 
     .producto{
-	display: grid;
-	grid-template-columns: 40% 60%;
-	justify-content: center;
-	align-items: center;
-	margin: 1rem 2.5rem 0 2rem;
+        flex-direction: row;
     }
     .imagen__producto{
-
-	o
+       justify-content: center;
+       align-items: center;
+       margin: 20px;
+       padding: 20px;
+       width: calc(50%);
+        overflow: hidden;
+        object-position: center;
+        object-fit: cover;
     }
     .parrafo__producto{
-	flex-direction: column;
+        width: 50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0.5rem ;
     }
+    
     
     .products__similar__products{
 	margin: 0 2rem 0 3rem;
@@ -175,6 +189,9 @@ section.footer {
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(1,1fr);
     grid-gap: 2rem;
+}
+.footer{
+    align-items: flex-start;
 }
 
 }
